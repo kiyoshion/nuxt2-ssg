@@ -10,6 +10,11 @@
         </nuxt-link>
       </li>
       <li>
+        <nuxt-link to="/movies">
+          MOVIES
+        </nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/words">
           WORDS
         </nuxt-link>
