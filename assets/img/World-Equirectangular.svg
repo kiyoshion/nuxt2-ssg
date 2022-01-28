@@ -74,11 +74,6 @@
  * Change opacity to 1 to display all circles.
  *
  */
- .current.land {
-  fill: #ffff00;
-  fill-opacity: 1;
-  stroke: white;
- }
 .circle
 {
    opacity:0;
@@ -96,13 +91,13 @@
  */
 .land
 {
-   <!-- fill: #b9b9b9;
+   fill: #b9b9b9;
    fill-opacity: 1;
    stroke:white;
    stroke-opacity: 1;
    stroke-width:0.5;
    stroke-miterlimit: 3.97446823;
-   stroke-dasharray: none; -->
+   stroke-dasharray: none;
 }
 
 /*
@@ -5910,7 +5905,7 @@
        id="path6830" />
   </g>
   <g
-     class="land coast us current"
+     class="land coast us"
      id="us">
     <path
        d="M334.50,392.08C334.17,391.73 333.97,391.40 333.92,391.09C333.57,391.36 333.54,391.81 333.91,392.35C334.11,392.26 334.30,392.17 334.50,392.08"

@@ -2,6 +2,11 @@
   <div>
     <h1>名著を読みあさる</h1>
     <ul>
+      <li @click="filter(0)">
+        爆訳
+      </li>
+    </ul>
+    <ul>
       <li v-for="(a, i) in articles" :key="i">
         <nuxt-link :to="`/books/${a.slug}`">
           {{ a.title }}
@@ -19,6 +24,11 @@ export default {
 
     return {
       articles
+    }
+  },
+  methods: {
+    filter (n) {
+
     }
   }
 }
