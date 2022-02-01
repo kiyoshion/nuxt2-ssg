@@ -15,6 +15,11 @@
         </nuxt-link>
       </li>
       <li>
+        <nuxt-link to="/pg">
+          PROGRAMMING
+        </nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/words">
           WORDS
         </nuxt-link>
@@ -22,3 +27,9 @@
     </ul>
   </div>
 </template>
+
+<style scoped>
+a {
+  padding: 0 .5rem;
+}
+</style>
